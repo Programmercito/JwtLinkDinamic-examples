@@ -12,7 +12,7 @@ import org.osbo.jwtmessage.message.JwtMessage;
 public class JwtLinkDinamic {
 
     public static void main(String[] args) {
-        String link = "https://sitio.me/ruta/${jwt}";
+        String link = "https://programmercito.github.io/jwtlink-web-example/#/example/${jwt}";
         MonedaPrecio monedap = new MonedaPrecio();
         monedap.setMoneda("Dolar");
         monedap.setPrecio(33.23);
